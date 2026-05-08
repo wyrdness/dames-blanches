@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/dames-blanches",
     "maintainers": [
       {
@@ -18,69 +18,133 @@
   },
   "phenomenon": {
     "id": "dames-blanches",
-    "name": "",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
+    "name": "Dames Blanches",
+    "aliases": [
+      { "name": "White Ladies", "language": "English" },
+      { "name": "Dame Blanche", "language": "French", "meaning": "White Lady (singular)" },
+      { "name": "Weiße Frauen", "language": "German", "meaning": "Cognate Germanic tradition" },
+      { "name": "Witte Wieven", "language": "Dutch / Low Saxon", "meaning": "Cognate Low-Countries tradition" },
+      { "name": "La Dame d'Aprigny", "region": "Bayeux, Normandy", "meaning": "Named local Dame Blanche" }
+    ],
+    "category": "FAE_FOLKLORE",
+    "subcategory": "Female fairy / liminal-space spirit",
     "tags": [
-      "folklore",
-      "mythology"
+      "french-folklore",
+      "fairy",
+      "white-lady",
+      "bridges",
+      "normandy",
+      "lorraine",
+      "liminal-space",
+      "celtic-germanic"
     ],
     "status": "documented",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "Female fairy beings of French folklore, particularly recorded in Lorraine, Normandy, and the Pyrenees, who haunt liminal places — bridges, fords, ravines, forest paths — and confront travellers with a ritual challenge such as a dance.",
+      "full": "The Dames Blanches ('White Ladies') are a class of female supernatural beings in French folklore, attested most strongly in Lorraine, Normandy, and the Pyrenean region of southwestern France. They appear as beautiful pale women dressed in white, lurking at narrow or liminal places — bridges, fords, ravines, woodland paths — typically by night. A traveller who meets one is required to perform a courtesy: a curtsey, a dance, a passage on the knees. Compliance is rewarded with safe passage and sometimes small gifts; refusal is punished by being thrown into a ravine, tormented by the Dame's animal allies (lutins, cats, owls), or driven mad. The most famous individual figures include La Dame d'Aprigny at Bayeux, who demanded a dance in a ravine on the road into the city, and the Dame of Pont d'Angot, who required travellers to cross her bridge on their knees. Folklorist John Arnott MacCulloch and 19th-century French folklorists such as Pierre Saintyves and Paul Sébillot interpreted them as Christianised echoes of pre-Christian female deities (Matres, fountain-goddesses), comparable to the German Weiße Frauen and the Dutch Witte Wieven. In Brittany the term Dame Blanche is also applied to a banshee-like wailing spirit who portends death in noble families."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "French dame ('lady') + blanche ('white').",
+      "meaning": "'White Ladies', a calque of the Germanic Weiße Frauen tradition.",
+      "first_use": "Documented in French folkloric collections from at least the early 19th century; isolated medieval references (e.g. the chronicle traditions concerning the Counts of Lusignan and the fairy Mélusine) prefigure the type."
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "FAE_FOLKLORE",
+      "type": "Female fairy",
+      "subtype": "Liminal-space spirit",
+      "variant": "French (Norman / Lorrain / Pyrenean)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "white-lady", "name": "White Lady", "relationship": "superset", "description": "Pan-European class of pale female ghosts and spirits" },
+      { "id": "banshee", "name": "Banshee", "relationship": "similar", "description": "Irish wailing female death-omen, paralleled by Breton Dame Blanche" },
+      { "id": "rusalka", "name": "Rusalka", "relationship": "similar", "description": "Slavic female water-spirit haunting bridges and rivers" },
+      { "id": "vila", "name": "Vila", "relationship": "similar", "description": "South Slavic female spirit of forests and waters" },
+      { "id": "huldre", "name": "Huldre", "relationship": "related", "description": "Scandinavian forest fairy" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["white robes or dresses", "very pale skin"],
+      "features": [
+        { "feature": "White dress or veil", "description": "Always dressed in white, sometimes long flowing robes, sometimes a wedding-style gown", "frequency": "always" },
+        { "feature": "Beautiful appearance", "description": "Described as strikingly beautiful young or middle-aged women", "frequency": "common" },
+        { "feature": "Pale or luminous skin", "description": "Skin pale to the point of glowing in moonlight", "frequency": "common" }
+      ],
+      "morphology": "Anthropomorphic female form indistinguishable from a mortal woman except for setting and behaviour."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Imposing a ritual challenge", "description": "Compels travellers to dance, curtsey, kneel, or otherwise show deference before allowing passage", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Punishing the discourteous", "description": "Throws the rude into ravines or sets her animal allies (lutins, cats, owls) on them", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Banshee-like wailing (Brittany)", "description": "In Breton tradition, a Dame Blanche wails to portend the death of a member of a noble family", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["bridges", "fords", "ravines", "forest paths", "narrow defiles", "wells and springs"],
+      "patterns": [
+        "Appears at narrow or liminal points of passage",
+        "Confronts travellers, especially lone men",
+        "Rewards courtesy and punishes rudeness",
+        "Active particularly at twilight and night"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "France, especially Lorraine, Normandy, and the Pyrenees; cognate traditions across the Germanic and Low-Countries area.",
+      "continents": ["Europe"],
+      "countries": ["France", "Belgium", "Germany", "Netherlands"],
+      "regions": ["Lorraine", "Normandy", "Brittany", "Pyrenees", "Wallonia"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Bayeux ravine (La Dame d'Aprigny)",
+        "location": {
+          "description": "Ravine on the road into Bayeux",
+          "country": "France",
+          "region": "Normandy"
+        },
+        "peak_period": "19th-century folklore",
+        "notes": "Locus classicus of the Norman dancing-Dame tradition."
+      },
+      {
+        "name": "Pont d'Angot",
+        "location": {
+          "description": "Bridge associated with a Dame Blanche who required travellers to pass on their knees",
+          "country": "France",
+          "region": "Normandy"
+        },
+        "peak_period": "19th-century folklore",
+        "notes": "Standard reference point in Sébillot's collections."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1882",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Paul Sébillot, Traditions et superstitions de la Haute-Bretagne; earlier scattered references in regional French folklore"
+      },
+      "peak_activity_periods": [
+        { "period": "19th century", "description": "Major collection era of French regional folklore" }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Likely a local French outgrowth of a wider European tradition of pale female supernatural beings (Weiße Frauen, Witte Wieven, White Ladies), with possible roots in pre-Christian Celtic and Gallo-Roman cults of the Matres, fountain-goddesses, and ancestral mothers.",
+      "earliest_accounts": "Medieval chronicle traditions of fairy lovers (e.g. Mélusine of Lusignan) prefigure the type; explicit Dame Blanche material appears in 19th-century French folkloric collections.",
+      "folklore_connections": "Closely paralleled by the Germanic Weiße Frauen, the Dutch/Low-Saxon Witte Wieven, the Welsh Y Ladi Wen, and the Pan-European White Lady ghost type."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1190-01-01", "event": "Walter Map's De Nugis Curialium records fairy-bride traditions in Anglo-Norman France", "significance": "Medieval prefiguration of fairy-lady traditions", "source": "Walter Map (c. 1190)" },
+      { "date": "1882-01-01", "event": "Paul Sébillot publishes Traditions et superstitions de la Haute-Bretagne", "significance": "Major regional folkloric collection including Dame Blanche material", "source": "Sébillot (1882)" },
+      { "date": "1904-01-01", "event": "Pierre Saintyves and other folklorists collect Norman and Lorrain Dame Blanche stories", "significance": "Period of systematic collection", "source": "Saintyves and others" },
+      { "date": "1932-01-01", "event": "John Arnott MacCulloch's Celtic Mythology offers comparative analysis linking Dames Blanches to Celtic Matres", "significance": "Comparative-mythology framing", "source": "MacCulloch (1932)" }
+    ],
+    "modern_era": "The Dames Blanches survive chiefly in regional folklore collections, in modern French and Belgian fantasy literature and tourism, and in the recurrent 'phantom hitchhiker' folklore that Anglophone scholars label the 'White Lady'."
   },
   "sightings": {
     "statistics": {
@@ -93,34 +157,98 @@
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
-    "audio": [],
-    "trace": []
+    "documentary": [
+      {
+        "id": "dames-blanches-evidence-sebillot-1882",
+        "type": "folklore record",
+        "name": "Sébillot, Traditions et superstitions de la Haute-Bretagne",
+        "date": "1882",
+        "description": "Field-collected Breton and Norman tales of Dame Blanche figures at bridges and ravines.",
+        "status": "verified",
+        "analysis": "Foundational French regional folkloric collection.",
+        "source": "Sébillot, P. (1882)"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Genuine fairy presence",
+        "description": "Within French folk belief, the Dames Blanches are real otherworldly women who police boundaries between the human and fairy realms.",
+        "proponents": ["Local tradition-bearers in 19th-century folklore collections"],
+        "evidence_cited": ["Continuous local oral tradition"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Christianised pre-Christian goddesses",
+        "description": "The Dames Blanches preserve in folkloric form earlier Celtic or Gallo-Roman female deities (Matres, fountain-goddesses) demoted under Christianisation.",
+        "proponents": ["John Arnott MacCulloch", "Pierre Saintyves"],
+        "evidence_cited": ["Cognate traditions across Western Europe", "Association with springs, fords, and bridges typical of Matres cult sites"]
+      },
+      {
+        "name": "Folkloric / didactic explanation",
+        "description": "The stories function as cautionary tales and as ways to encode rules of courtesy and behaviour at dangerous liminal places.",
+        "proponents": ["French folklorists generally"],
+        "evidence_cited": ["Patterned ritual challenges at bridges and fords"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Norman folklore tradition",
+        "Lorrain folklore tradition",
+        "Pyrenean folklore tradition",
+        "Breton ar Gannerez tradition (washerwomen of the night, related)"
+      ],
+      "stories": [
+        "La Dame d'Aprigny at Bayeux",
+        "The Dame of Pont d'Angot",
+        "Various Pyrenean tales of Dames Blanches at mountain passes"
+      ],
+      "beliefs": "The Dames Blanches enforce courtesy at dangerous liminal points — bridges, fords, mountain passes — by rewarding the polite traveller and punishing the rude."
+    },
+    "indigenous": {
+      "cultures": ["French regional cultures (Norman, Lorrain, Breton, Gascon, Béarnais)"],
+      "significance": "A distinctive feature of French regional folklore and identity, particularly in Normandy and Lorraine."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Traditions et superstitions de la Haute-Bretagne — Paul Sébillot (1882)",
+        "Le Folk-Lore de France — Paul Sébillot (1904–1907)",
+        "Celtic Mythology — John Arnott MacCulloch (1932)",
+        "Le Roman de Mélusine — Jean d'Arras (c. 1393)"
+      ],
+      "film_tv": [
+        "La Dame Blanche (Daniel Auteuil's adaptations of Pagnol material reference the type)",
+        "Various French regional television documentaries on folklore"
+      ],
+      "games": [
+        "The Witcher series — 'White Lady' creature draws on this tradition"
+      ],
+      "other": [
+        "Numerous regional French ghost tours and tourism programmes"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Paul Sébillot", "affiliation": "Société des traditions populaires", "contribution": "Pioneer collector of French regional folklore, including Dame Blanche material", "period": "1880s–1910s" },
+      { "name": "Pierre Saintyves (Émile Nourry)", "affiliation": "Independent folklorist", "contribution": "Studies of saints, superstitions, and fairy traditions in France", "period": "1900s–1930s" },
+      { "name": "John Arnott MacCulloch", "affiliation": "Independent / Episcopal Church", "contribution": "Comparative Celtic mythology framing of the Dames Blanches", "period": "1900s–1930s" }
+    ],
+    "organizations": [
+      { "name": "Société d'Ethnologie Française", "url": "https://www.ethnologie-francaise.fr", "focus": "French ethnographic and folkloric scholarship" },
+      { "name": "MUCEM (Musée des Civilisations de l'Europe et de la Méditerranée)", "url": "https://www.mucem.org", "focus": "European folklore and ethnography in Marseille" }
+    ],
+    "ongoing_studies": "Continuing folklore scholarship in French universities and ethnographic museums; no field-cryptozoological research."
   },
-  "sources": []
+  "sources": [
+    { "id": "sebillot-1882", "type": "book", "title": "Traditions et superstitions de la Haute-Bretagne", "authors": ["Paul Sébillot"], "publication": "Maisonneuve et Cie", "date": "1882" },
+    { "id": "sebillot-folklore", "type": "book", "title": "Le Folk-Lore de France", "authors": ["Paul Sébillot"], "publication": "Guilmoto, Paris", "date": "1904-1907" },
+    { "id": "macculloch-1932", "type": "book", "title": "The Celtic and Scandinavian Religions", "authors": ["John Arnott MacCulloch"], "publication": "Hutchinson's University Library", "date": "1948" },
+    { "id": "wikipedia-dames-blanches", "type": "website", "title": "Dames blanches (folklore)", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dames_blanches", "accessed": "2026-05-07" }
+  ]
 }
